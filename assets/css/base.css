@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .container{
+    max-width: 1140px;
+} */
+
+:root{
+    --color-pink: #ff589e;
+    --color-blue: #8261ee;
+    --color-black: #1e1e1e;
+    --color-grey: #777777;
+    --font: 'Raleway', sans-serif;
+}
+body{
+    font-family: var(--font);
+}
+
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: var(--color-pink);
+}
+.button{
+    font-size: 13px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.button-pink{
+    background-color: var(--color-pink);
+    color: white;
+}
+.button-pink:hover{
+    background-color: var(--color-blue);
+}
+.button-blue{
+    background-color: var(--color-blue);
+    color: white;
+}
+.button-blue:hover{
+    background-color: var(--color-pink);
+}
+.blue-one{
+    background-color: var(--color-blue);
+}
+.pink-one{
+    background-color: var(--color-pink);
+}
